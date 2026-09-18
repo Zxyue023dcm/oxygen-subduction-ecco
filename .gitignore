@@ -1,0 +1,24 @@
+# Scientific inputs and generated results
+/input_data/*
+!/input_data/.gitkeep
+!/input_data/raw/
+/input_data/raw/*
+!/input_data/raw/.gitkeep
+/result_data/**
+!/result_data/.gitkeep
+
+# Generated figures
+/figs/**
+!/figs/.gitkeep
+/figs_origin/
+
+# MATLAB generated files
+*.asv
+*.m~
+/slprj/
+/codegen/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
