@@ -70,4 +70,4 @@ Additional bundled functions retain their original notices where supplied. See [
 
 When the associated article and repository DOI are available, their complete citation will add here and cite them when reusing this code.
 
-This repository currently does not declare a project-level software license. Before public release, the authors should select a license consistent with their intended reuse terms and verify compatibility with the bundled third-party components.
+This repository currently does not declare a project-level software license. Before public release, the authors will select a license consistent with their intended reuse terms and verify compatibility with the bundled third-party components.
