@@ -86,6 +86,6 @@ subplot(size(Station,1),1,i);hold on;box on;
 text(2006,0,['r^2_s_e_a_s_o_n = ' num2str(r2(i),'%.2f') ' , p < 0.01'],'fontsize',ft);
 
    end
-fn=[fullfile(projectRoot,'figs','FIGS7_TimeSeries.png')];%h=figure(3);
+fn=[fullfile(projectRoot,'figs','FIG8_TimeSeries.png')];%h=figure(3);
  exportgraphics(h, fn, 'Resolution', 450);
 

@@ -96,7 +96,7 @@ hist(data,100);xlabel('Thickness (m)');ylabel('Grid number (× 10^3)');
 set(gca,'fontsize',ft-2,'YTick',0:1000:5000,'YTickLabel',0:1:5);
  title('f) Frequency distribution of H_s_t','fontsize',ft,'FontWeight','bold');
 
-             fn=[fullfile(projectRoot,'figs','FIGS1_Mxld.png')];%h=figure(3);
+             fn=[fullfile(projectRoot,'figs','FIGS2_Mxld.png')];%h=figure(3);
  exportgraphics(h, fn, 'Resolution', 450); % PNG
 
  [lon_l,lat_l] = distcoordinate(oceanlon(:,1),oceanlat(1,:)');
@@ -269,9 +269,9 @@ set(T, 'HorizontalAlignment', 'left');
 set(T, 'Position', [p1,p2,p3]);
 
 
-        fn=[fullfile(projectRoot,'figs','FIGS2_MxldHV_a.png')];%h=figure(3);
+        fn=[fullfile(projectRoot,'figs','FIGS3_MxldHV_a.png')];%h=figure(3);
  exportgraphics(h1, fn, 'Resolution', 450); % PNG
 
-         fn=[fullfile(projectRoot,'figs','FIGS2_MxldHV_b.png')];%h=figure(3);
+         fn=[fullfile(projectRoot,'figs','FIGS3_MxldHV_b.png')];%h=figure(3);
  exportgraphics(h2, fn, 'Resolution', 450); % PNG
 

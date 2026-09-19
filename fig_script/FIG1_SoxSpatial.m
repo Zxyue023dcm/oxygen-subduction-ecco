@@ -112,7 +112,7 @@ end
 h;
 subplot(3,1,1);
 hold on;
-text(1.5,1.1,'SSP','FontSize',ft,'fontName','Times New Roman');
+text(1.5,1.1,'SPP','FontSize',ft,'fontName','Times New Roman');
 text(1.5,0.9,'NSTP','FontSize',ft,'fontName','Times New Roman');
 text(1.5,0.7,'EP','FontSize',ft,'fontName','Times New Roman');
 text(1.5,0.5,'SSTP','FontSize',ft,'fontName','Times New Roman');

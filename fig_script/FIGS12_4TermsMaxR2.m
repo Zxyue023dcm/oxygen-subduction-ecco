@@ -69,9 +69,9 @@ c=colorbar;
 c.Label.String={'Correlation coefficient (r)'; 'with total F^o^x'};c.FontSize=12;
 
 
- fn=[fullfile(projectRoot,'figs','FIGS11_4TermsMaxR2.png')];
+ fn=[fullfile(projectRoot,'figs','FIGS12_4TermsMaxR2.png')];
  exportgraphics(h, fn, 'Resolution', 450); % PNG
 
-  fn=[fullfile(projectRoot,'figs','FIGS11_Colorbar.png')];
+  fn=[fullfile(projectRoot,'figs','FIGS12_Colorbar.png')];
  exportgraphics(h1, fn, 'Resolution', 450); % PNG
 

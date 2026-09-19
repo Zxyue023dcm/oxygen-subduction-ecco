@@ -70,7 +70,7 @@ hold on;
      'linewidth',1,'xtick',[135 180:45:300],'ytick',[-60 -40 -15 0 15 40 60],'fontsize',12);
 
 c=colorbar;
-c.Label.String='R^2×100 (%)';c.FontSize=12;
+c.Label.String='R^2 (%)';c.FontSize=12;
 
 load(fullfile(functionDir,'Areaall.mat'));
 
@@ -83,6 +83,6 @@ Area_r40=sum(Areaall(R_squared>0.4),"all",'omitnan')/Area_ALL;
 Area_r34=sum(Areaall(R_squared>0.34),"all",'omitnan')/Area_ALL;
 
 
-fn=[fullfile(projectRoot,'figs','FIGS12_ek_Sox_R2.png')];
+fn=[fullfile(projectRoot,'figs','FIGS13_ek_Sox_R2.png')];
 exportgraphics(h2,fn, 'Resolution', 450);
 

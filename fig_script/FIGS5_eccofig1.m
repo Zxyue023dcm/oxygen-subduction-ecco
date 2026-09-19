@@ -101,7 +101,7 @@ text(-1.5,1.1,Num{n},'FontSize',12,'FontWeight','bold');
 end
 
 
- fn=[fullfile(projectRoot,'figs','FIGS4_a')];
+ fn=[fullfile(projectRoot,'figs','FIGS5_a')];
  exportgraphics(h, [fn '.png'], 'Resolution', 450);
 
 
@@ -271,6 +271,6 @@ text(-60,10,Num{n},'FontSize',13,'FontWeight','bold');
 
 end
 
-fn=[fullfile(projectRoot,'figs','FIGS4_b')];
+fn=[fullfile(projectRoot,'figs','FIGS5_b')];
  exportgraphics(h1, [fn '.png'], 'Resolution', 450);
 

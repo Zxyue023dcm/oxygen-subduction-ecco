@@ -117,9 +117,9 @@ b1=subplot(1,2,1);
 c=colorbar('location','eastoutside');
 c.Label.String='mol m^-^2 mon^-^1';c.FontSize=13;
 
-fn=[fullfile(projectRoot,'figs','FIGS10_DJF_JJA_map.png')];
+fn=[fullfile(projectRoot,'figs','FIGS11_DJF_JJA_map.png')];
  exportgraphics(h1, fn, 'Resolution', 450); % PNG
 
-fn=[fullfile(projectRoot,'figs','FIGS10_Colorbar.png')];
+fn=[fullfile(projectRoot,'figs','FIGS11_Colorbar.png')];
  exportgraphics(h, fn, 'Resolution', 450); % PNG
 

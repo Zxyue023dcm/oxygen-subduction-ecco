@@ -102,6 +102,6 @@ end
 legend([e1,e2],{'Integrated S^o^x','Subduction Area'},'Box','off','fontsize',ft);
 
 
-fn=[fullfile(projectRoot,'figs','FIGS9_SeasonalLines.png')];
+fn=[fullfile(projectRoot,'figs','FIGS10_SeasonalLines.png')];
  exportgraphics(h, fn, 'Resolution', 450);
 

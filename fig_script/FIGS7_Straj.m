@@ -196,6 +196,6 @@ xlim([0.5 12.5]);
 end
 
 
-fn2=[fullfile(projectRoot,'figs','FIGS6_Straj')];
+fn2=[fullfile(projectRoot,'figs','FIGS7_Straj')];
  exportgraphics(hf, [fn2 '.png'], 'Resolution', 450);
 

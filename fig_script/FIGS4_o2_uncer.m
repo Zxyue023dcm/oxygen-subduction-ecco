@@ -85,6 +85,6 @@ set(cbar(i), 'Position', [cb_left, cb_bottom, cb_width, cb_height]);
 end
 
 
-fn2=[fullfile(projectRoot,'figs','FIGS3_o2_uncer')];
+fn2=[fullfile(projectRoot,'figs','FIGS4_o2_uncer')];
  exportgraphics(hf, [fn2 '.png'], 'Resolution', 450);
 

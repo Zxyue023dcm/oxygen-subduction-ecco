@@ -133,6 +133,6 @@ exportgraphics(h1,fn, 'Resolution', 450);
  fn=[fullfile(projectRoot,'figs','FIGS13_Ot_Section.pdf')];
 exportgraphics(h,fn, 'Resolution', 450,'ContentType','vector');
 
-fn=[fullfile(projectRoot,'figs','FIGS13_Ot_Section.png')];
+fn=[fullfile(projectRoot,'figs','FIGS14_Ot_Section.png')];
 exportgraphics(h,fn, 'Resolution', 450);
 

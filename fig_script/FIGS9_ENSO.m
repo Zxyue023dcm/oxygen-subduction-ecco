@@ -155,6 +155,6 @@ line([0.5 6.5], [rs(2) rs(2)], 'Color', 'r', 'LineStyle', '--', 'LineWidth', 1);
 legend('Correlation', sprintf('4th-order reference (r=%.3f)', rs(2)), 'Location', 'best','fontsize',ft-1,'box','off');
 
 
-fn=[fullfile(projectRoot,'figs','FIGS8_ENSO.png')];
+fn=[fullfile(projectRoot,'figs','FIGS9_ENSO.png')];
 exportgraphics(h,fn, 'Resolution', 450);
 

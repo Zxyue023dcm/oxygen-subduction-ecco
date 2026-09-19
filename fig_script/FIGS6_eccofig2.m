@@ -106,9 +106,9 @@ c.Label.String='mol O_2 m^-^2 mon^-^1';c.FontSize=12;
 ylabel('O^o^x              S^o^x','FontSize',12);
 
 
-fn=[fullfile(projectRoot,'figs','FIGS5_eccofig2.png')];%h=figure(3);
+fn=[fullfile(projectRoot,'figs','FIGS6_eccofig2.png')];%h=figure(3);
  exportgraphics(h, fn, 'Resolution', 450);
 
- fn=[fullfile(projectRoot,'figs','FIGS5_colorbar.png')];
+ fn=[fullfile(projectRoot,'figs','FIGS6_colorbar.png')];
  exportgraphics(h1, fn, 'Resolution', 450);
 
