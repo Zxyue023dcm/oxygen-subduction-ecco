@@ -72,17 +72,6 @@ hold on;
 c=colorbar;
 c.Label.String='R^2 (%)';c.FontSize=12;
 
-load(fullfile(functionDir,'Areaall.mat'));
-
-Areaall(isnan(R_squared))=nan;
-
-Area_ALL=sum(Areaall,"all",'omitnan');
-
-Area_r50=sum(Areaall(R_squared>0.5),"all",'omitnan')/Area_ALL;
-Area_r40=sum(Areaall(R_squared>0.4),"all",'omitnan')/Area_ALL;
-Area_r34=sum(Areaall(R_squared>0.34),"all",'omitnan')/Area_ALL;
-
-
 fn=[fullfile(projectRoot,'figs','FIGS13_ek_Sox_R2.png')];
 exportgraphics(h2,fn, 'Resolution', 450);
 
