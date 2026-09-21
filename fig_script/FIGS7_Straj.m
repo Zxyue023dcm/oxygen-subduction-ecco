@@ -20,9 +20,9 @@ OSp=m0.OS;
 OSm=mean(OSp,3,'omitnan');
 OSp=reshape(OSp,[720 360 12 14]);
 
-groupnum={'SSTP (40°S-10°S)','NSTP (10°N-40°N)'};
+groupnum={'SSTP (35°S-10°S)','NSTP (10°N-40°N)'};
 
-LAT_min=[-40 10];LAT_max=[-10 40];
+LAT_min=[-35 10];LAT_max=[-10 40];
 lon_min=122;lon_max=292;
 
 for b=1:size(groupnum,2)
